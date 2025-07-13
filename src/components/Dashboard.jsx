@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, LineChart, Line, PieChart, Pie, Cell } from 'recharts';
 import { Users, Eye, MousePointer, TrendingUp, Globe, Clock, Activity } from 'lucide-react';
 import { cn } from '../lib/utils';
-import './index.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Dashboard = ({ domain }) => {
