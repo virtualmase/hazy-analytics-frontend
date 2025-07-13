@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { Github, Twitter, Linkedin, Mail, MessageCircle } from 'lucide-react';
 import PartnershipBadge from './PartnershipBadge';
+import Logo from './Logo';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
